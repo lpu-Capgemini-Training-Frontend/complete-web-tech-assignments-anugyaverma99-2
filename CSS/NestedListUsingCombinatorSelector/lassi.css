@@ -1,0 +1,10 @@
+#lassi>#list{
+    color:brown
+}
+#lassi >#list > #nested-list{
+    color:cadetblue;
+    list-style-type:square;
+}
+#lassi h1{
+    color:darkgreen
+}
