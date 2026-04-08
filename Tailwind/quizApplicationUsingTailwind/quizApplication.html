@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application using tailwind</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+</style>
+       
+</head>
+<body>
+    <header class="bg-black text-center text-white h-[85px] justify-center-safe items-center text-3xl">
+        <h2 > QUIZ APPLICATION</h2>
+    </header>
+    <main class ="bg-green-200 h-[600px] text-xl">
+        
+
+        <p  class="font-bold">Q1. who is the prime minister of india?</p>
+        <label class="block">Narendra Modi<input type="radio" name="first"class="peer">
+            <p class="hidden bg-green-400 peer-checked:inline"> CORRECT ANSWER !!!</p>
+        </label>
+        <label class="block">Donald Trump<input type="radio" name="first" class="peer">
+            <p class="hidden bg-red-400 peer-checked:inline"> INCORRECT ANSWER !!!</p>
+        </label>
+        <label class="block">Harhad Mehta<input type="radio" name="first"class="peer">
+            <p class="hidden bg-red-400 peer-checked:inline"> INCORRECT ANSWER !!!</p>
+        </label>
+        <label class="block">other<input type="radio" name="first"class="peer">
+            <p class="hidden bg-red-400 peer-checked:inline"> INCORRECT ANSWER !!!</p>
+        </label>
+
+
+         <p  class="font-bold">Q2. what is the colour of orange?</p>
+        <label class="block">orange<input type="radio" name="second"class="peer">
+            <p class="hidden bg-green-400 peer-checked:inline"> CORRECT ANSWER !!!</p>
+        </label>
+        <label class="block">green<input type="radio" name="second" class="peer">
+             <p class="hidden bg-red-400 peer-checked:inline"> INCORRECT ANSWER !!!</p>
+        </label>
+        <label class="block">black<input type="radio" name="second" class="peer">
+            <p class="hidden bg-red-400 peer-checked:inline"> INCORRECT ANSWER !!!</p>
+        </label>
+        <label class="block">other<input type="radio" name="second"class="peer">
+            <p class="hidden bg-red-400 peer-checked:inline"> INCORRECT ANSWER !!!</p>
+        </label>
+        
+
+         <p class="font-bold">Q3. How is the weather today</p>
+        <label class="block">windy<input type="radio" name="third"class="peer">
+        <p class="hidden bg-red-400 peer-checked:inline"> INCORRECT ANSWER !!!</p></label>
+        <label class="block">sunny<input type="radio" name="third"class="peer">
+            <p class="hidden bg-red-400 peer-checked:inline"> INCORRECT ANSWER !!!</p></label>
+        <label class="block">rainy<input type="radio" name="third"class="peer">
+            <p class="hidden bg-green-400 peer-checked:inline"> CORRECT ANSWER !!!</p></label>
+        </label>
+        <label class="block">other<input type="radio" name="third" class="peer">
+            <p class="hidden bg-red-400 peer-checked:inline"> INCORRECT ANSWER !!!</p></label>
+        </label>
+
+    </main>
+    <footer class="bg-black text-center text-white h-[55px]">
+        this is footer.
+    </footer>
+</body>
+</html>
