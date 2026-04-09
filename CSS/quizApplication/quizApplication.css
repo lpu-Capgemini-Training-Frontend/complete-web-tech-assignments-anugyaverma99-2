@@ -1,0 +1,87 @@
+*{
+            margin:0;
+            padding:0;
+        }
+        #header{
+            width:100%;
+            height:50px;
+            text-align:center;
+            background-color: black;
+            color: white;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+
+
+
+        } 
+        h4{
+            margin:10px 10px 0px 10px;
+
+        } 
+        main{
+            height: 622px;
+            width:100%;
+
+        }
+         #footer{
+            width:100%;
+            height:50px;
+            text-align:center;
+            background-color: black;
+            color: white;
+            display:flex;
+             align-items:center; 
+             justify-content:center; 
+
+
+
+        } 
+        label{
+            margin:20px;
+        }  
+        .correct{
+            background-color: green;
+            color:white;
+            display:inline;
+            display:none;
+        }  
+         .incorrect{
+            background-color: red;
+            color:white;
+            display:inline;
+            display:none;
+        }  
+        #q11:checked ~#ans1{
+            display:inline
+                        
+        }  
+        #q12:checked ~#ansnot1,
+        #q13:checked ~#ansnot1,
+        #q14:checked ~#ansnot1
+        {
+            display:inline
+
+        }
+        #q21:checked ~#ans2{
+            display:inline
+                        
+        }  
+        #q22:checked ~#ansnot2,
+        #q23:checked ~#ansnot2,
+        #q24:checked ~#ansnot2
+        {
+            display:inline
+
+        }
+        #q31:checked ~#ans3{
+            display:inline
+                        
+        }  
+        #q32:checked ~#ansnot3,
+        #q33:checked ~#ansnot3,
+        #q34:checked ~#ansnot3
+        {
+            display:inline
+
+        }
